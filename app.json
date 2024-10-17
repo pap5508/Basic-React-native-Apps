@@ -1,6 +1,7 @@
 {
   "expo": {
     "name": "RNCourse",
+    "projectId":"1",
     "slug": "RNCourse",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -22,6 +23,15 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "plugins": [
+      [
+        "expo-notifications",
+        {
+          "icon":"./assets/icon.png",
+          "color":"#ffffff"
+      }
+      ]
+    ]
   }
 }
